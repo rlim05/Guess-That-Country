@@ -13,11 +13,17 @@ struct ContentView: View {
             Text("Guess That Country!")
                 .font(.title)
                 .fontWeight(.bold)
-            .padding()
-        NavigationView {
-            NavigationLink(destination: SecondContentView()) {
-                Text("Guess the Flag")
-                    .buttonStyle(PlainButtonStyle())
+                .padding()
+            NavigationView {
+                NavigationLink(destination: SecondContentView()) {
+                    Text("Guess the Flag")
+                            .buttonStyle(PlainButtonStyle())
+                    }
+            }
+            NavigationView {
+                NavigationLink(destination: ContentView()) {
+                    Text("Guess the Country")
+                        .buttonStyle(PlainButtonStyle())
                 }
             }
         }
