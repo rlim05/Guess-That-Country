@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        VStack {
+            Text("Guess That Country!")
+                .font(.title)
+                .fontWeight(.bold)
             .padding()
+        NavigationView {
+            NavigationLink(destination: SecondContentView()) {
+                Text("Guess the Flag")
+                    .buttonStyle(PlainButtonStyle())
+                }
+            }
+        }
+    }
+}
+
+struct SecondContentView: View {
+    var body: some View {
+        Text("Guess the Flag")
     }
 }
 
