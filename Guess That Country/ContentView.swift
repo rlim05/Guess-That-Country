@@ -21,7 +21,7 @@ struct ContentView: View {
                     }
             }
             NavigationView {
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: ThirdContentView()) {
                     Text("Guess the Country")
                         .buttonStyle(PlainButtonStyle())
                 }
@@ -33,6 +33,12 @@ struct ContentView: View {
 struct SecondContentView: View {
     var body: some View {
         Text("Guess the Flag")
+    }
+}
+
+struct ThirdContentView: View {
+    var body: some View {
+        Text("Guess the Country")
     }
 }
 
