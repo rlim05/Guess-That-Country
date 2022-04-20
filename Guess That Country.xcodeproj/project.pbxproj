@@ -11,6 +11,7 @@
 		3F64FBEB27F730960047A3DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64FBEA27F730960047A3DE /* ContentView.swift */; };
 		3F64FBED27F730990047A3DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F64FBEC27F730990047A3DE /* Assets.xcassets */; };
 		3F64FBF027F730990047A3DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F64FBEF27F730990047A3DE /* Preview Assets.xcassets */; };
+		3FA2AEF028105F0300AFE4C7 /* Countries .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEEF28105F0300AFE4C7 /* Countries .swift */; };
 		3FA3456927FCA8370040A79E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3456827FCA8370040A79E /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		3F64FBEA27F730960047A3DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F64FBEC27F730990047A3DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F64FBEF27F730990047A3DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3FA2AEEF28105F0300AFE4C7 /* Countries .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Countries .swift"; sourceTree = "<group>"; };
 		3FA3456827FCA8370040A79E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				3F64FBE827F730960047A3DE /* Guess_That_CountryApp.swift */,
+				3FA2AEEF28105F0300AFE4C7 /* Countries .swift */,
 				3F64FBEA27F730960047A3DE /* ContentView.swift */,
 				3FA3456827FCA8370040A79E /* SwiftyJSON.swift */,
 				3F64FBEC27F730990047A3DE /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 				3FA3456927FCA8370040A79E /* SwiftyJSON.swift in Sources */,
 				3F64FBEB27F730960047A3DE /* ContentView.swift in Sources */,
 				3F64FBE927F730960047A3DE /* Guess_That_CountryApp.swift in Sources */,
+				3FA2AEF028105F0300AFE4C7 /* Countries .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
