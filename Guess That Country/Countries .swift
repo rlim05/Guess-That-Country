@@ -1,6 +1,6 @@
 //
 //  Countries .swift
-//  Guess That Country
+//  Guess That country
 //
 //  Created by Student on 4/20/22.
 //
@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct Countries_: View {
-    var Countries = ["Country_0", "Country_1", "Country_2", "Country_3", "Country_4", "Country_5", "Country_6", "Country_7", "Country_8", "Country_9", "Country_10", "Country_11", "Country_12", "Country_13", "Country_14", "Country_15", "Country_16", "Country_17", "Country_18", "Country_19", "Country_20", "Country_21", "Country_22", "Country_23", "Country_24", "Country_25", "Country_26", "Country_27", "Country_28", "Country_29", "Country_30", "Country_31", "Country_32", "Country_33", "Country_34", "Country_35", "Country_36", "Country_37", "Country_38", "Country_39", "Country_40", "Country_41"].shuffled()
+    var countries = ["country_0", "country_1", "country_2", "country_3", "country_4", "country_5", "country_6", "country_7", "country_8", "country_9", "country_10", "country_11", "country_12", "country_13", "country_14", "country_15", "country_16", "country_17", "country_18", "country_19", "country_20", "country_21", "country_22", "country_23", "country_24", "country_25", "country_26", "country_27", "country_28", "country_29", "country_30", "country_31", "country_32", "country_33", "country_34", "country_35", "country_36", "country_37", "country_38", "country_39", "country_40", "country_41"].shuffled()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            let randomImage = countries.randomElement()
+            Image(randomImage!).resizable()
+                .frame(width: 300, height: 300, alignment: .center)
+        }
     }
 }
 
