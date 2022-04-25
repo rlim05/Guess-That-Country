@@ -14,7 +14,7 @@ struct Countries_: View {
         VStack {
             let randomImage = countries.randomElement()
             Image(randomImage!).resizable()
-                .frame(width: 300, height: 300, alignment: .center)
+                .frame(width: 350, height: 225, alignment: .center)
         }
     }
 }

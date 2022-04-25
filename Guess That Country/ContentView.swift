@@ -15,27 +15,20 @@ struct ContentView: View {
                 .fontWeight(.bold)
                 .padding()
             NavigationView {
-                NavigationLink(destination: SecondContentView()) {
+                NavigationLink(destination: Flags()) {
                     Text("Guess the Flag")
                         .buttonStyle(PlainButtonStyle())
                 }
             }
             NavigationView {
                 NavigationLink(destination: Countries_()) {
-                    Text("Countries")
+                    Text("Guess the Country")
                         .buttonStyle(PlainButtonStyle())
                 }
             }
         }
     }
 }
-
-struct SecondContentView: View {
-    var body: some View {
-        Text("Guess the Flag")
-    }
-}
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
