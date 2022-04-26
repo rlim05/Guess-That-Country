@@ -19,4 +19,19 @@ var myCountryQuiz : [CountryQuiz] = [
                 correct: 1),
     
     
+    CountryQuiz(img:"country_1",
+                answer: ["India", "Brazil", "Japan", "Iran"],
+                correct: 1),
+    
+    
+    CountryQuiz(img:"country_2",
+                answer: ["Netherlands", "Poland", "Canada", "Romina"],
+                correct: 1),
+    
+    
+    CountryQuiz(img:"country_3",
+                answer: ["Russia", "Italy", "Hungary", "China"],
+                correct: 1),
+    
+    
 ]
