@@ -13,6 +13,7 @@
 		3F64FBF027F730990047A3DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F64FBEF27F730990047A3DE /* Preview Assets.xcassets */; };
 		3F76A36E2816F2DE00A27E32 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F76A36D2816F2DE00A27E32 /* Flags.swift */; };
 		3FA2AEF028105F0300AFE4C7 /* Countries .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEEF28105F0300AFE4C7 /* Countries .swift */; };
+		3FA2AEF228184A7A00AFE4C7 /* CountryQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEF128184A7A00AFE4C7 /* CountryQuiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3F64FBEF27F730990047A3DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F76A36D2816F2DE00A27E32 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
 		3FA2AEEF28105F0300AFE4C7 /* Countries .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Countries .swift"; sourceTree = "<group>"; };
+		3FA2AEF128184A7A00AFE4C7 /* CountryQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryQuiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				3F64FBE827F730960047A3DE /* Guess_That_CountryApp.swift */,
 				3FA2AEEF28105F0300AFE4C7 /* Countries .swift */,
+				3FA2AEF128184A7A00AFE4C7 /* CountryQuiz.swift */,
 				3F76A36D2816F2DE00A27E32 /* Flags.swift */,
 				3F64FBEA27F730960047A3DE /* ContentView.swift */,
 				3F64FBEC27F730990047A3DE /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				3F76A36E2816F2DE00A27E32 /* Flags.swift in Sources */,
 				3F64FBE927F730960047A3DE /* Guess_That_CountryApp.swift in Sources */,
 				3FA2AEF028105F0300AFE4C7 /* Countries .swift in Sources */,
+				3FA2AEF228184A7A00AFE4C7 /* CountryQuiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
