@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             NavigationView {
-                NavigationLink (destination: CountryQuizView1()) {
+                NavigationLink (destination: CountryQuizView()) {
                     Text("Start Country Quiz")
                 }
                                
