@@ -12,10 +12,10 @@ struct CountryQuiz {
     var correct : Int?
 }
 
-var myCountryQuiz : [CountryQuiz] = [
+var myCountryQuizView1 : [CountryQuiz] = [
     
     CountryQuiz(img:"country_0",
-                answer: ["Australia", "Brazil", "Canada", "China"],
+                answer: ["Brazil", "Australia", "Canada", "China"],
                 correct: 1),
     
     
@@ -26,12 +26,13 @@ var myCountryQuiz : [CountryQuiz] = [
     
     CountryQuiz(img:"country_2",
                 answer: ["Netherlands", "Poland", "Canada", "Romina"],
-                correct: 1),
+                correct: 2),
     
     
     CountryQuiz(img:"country_3",
                 answer: ["Russia", "Italy", "Hungary", "China"],
-                correct: 1),
+                correct: 3),
     
-    
+
 ]
+
