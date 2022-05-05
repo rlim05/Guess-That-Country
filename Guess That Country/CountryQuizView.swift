@@ -32,9 +32,10 @@ struct CountryQuizView: View {
             CountryQuizView(img:"country_3",
                             answer: ["Russia", "Italy", "Hungary", "China"],
                             correct: 3),
-            
-            
         ]
+        
+        
+        
     }
     struct CountryQuizView {
         var img : String?
