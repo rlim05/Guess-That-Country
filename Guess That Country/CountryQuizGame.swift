@@ -18,6 +18,26 @@ struct CountryQuizGame: View {
                     .frame(width: 350, height: 225, alignment: .center)
                     .border(Color.black, width: 5)
                 
+                    Button("Australia") {
+                       
+                    }
+                    .frame(width: 150, height: 55)
+                    .padding()
+                    .font(.title)
+                
+                Button("Canada") {
+                   
+                }
+                .frame(width: 150, height: 55)
+                .padding()
+                .font(.title)
+                
+                Button("Greece") {
+                   
+                }
+                .frame(width: 150, height: 55)
+                .padding()
+                .font(.title)
             }
             .navigationTitle("Guess The Country!")
         }

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F49242A28202DBE002B3A93 /* FlagQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49242928202DBE002B3A93 /* FlagQuiz.swift */; };
-		3F49242C28203092002B3A93 /* FlagQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F49242B28203092002B3A93 /* FlagQuizView.swift */; };
 		3F64FBE927F730960047A3DE /* Guess_That_CountryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64FBE827F730960047A3DE /* Guess_That_CountryApp.swift */; };
 		3F64FBEB27F730960047A3DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64FBEA27F730960047A3DE /* ContentView.swift */; };
 		3F64FBED27F730990047A3DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F64FBEC27F730990047A3DE /* Assets.xcassets */; };
@@ -16,13 +15,11 @@
 		3F76A36E2816F2DE00A27E32 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F76A36D2816F2DE00A27E32 /* Flags.swift */; };
 		3FA2AEF028105F0300AFE4C7 /* Countries .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEEF28105F0300AFE4C7 /* Countries .swift */; };
 		3FA2AEF228184A7A00AFE4C7 /* CountryQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEF128184A7A00AFE4C7 /* CountryQuiz.swift */; };
-		3FA2AEF8281C3E5A00AFE4C7 /* CountryQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEF7281C3E5A00AFE4C7 /* CountryQuizView.swift */; };
 		3FA2AEFA2824250F00AFE4C7 /* CountryQuizGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEF92824250F00AFE4C7 /* CountryQuizGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F49242928202DBE002B3A93 /* FlagQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuiz.swift; sourceTree = "<group>"; };
-		3F49242B28203092002B3A93 /* FlagQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizView.swift; sourceTree = "<group>"; };
 		3F64FBE527F730960047A3DE /* Guess That Country.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess That Country.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F64FBE827F730960047A3DE /* Guess_That_CountryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_That_CountryApp.swift; sourceTree = "<group>"; };
 		3F64FBEA27F730960047A3DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,7 +28,6 @@
 		3F76A36D2816F2DE00A27E32 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
 		3FA2AEEF28105F0300AFE4C7 /* Countries .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Countries .swift"; sourceTree = "<group>"; };
 		3FA2AEF128184A7A00AFE4C7 /* CountryQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryQuiz.swift; sourceTree = "<group>"; };
-		3FA2AEF7281C3E5A00AFE4C7 /* CountryQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryQuizView.swift; sourceTree = "<group>"; };
 		3FA2AEF92824250F00AFE4C7 /* CountryQuizGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryQuizGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,9 +65,7 @@
 				3FA2AEEF28105F0300AFE4C7 /* Countries .swift */,
 				3FA2AEF128184A7A00AFE4C7 /* CountryQuiz.swift */,
 				3F49242928202DBE002B3A93 /* FlagQuiz.swift */,
-				3FA2AEF7281C3E5A00AFE4C7 /* CountryQuizView.swift */,
 				3FA2AEF92824250F00AFE4C7 /* CountryQuizGame.swift */,
-				3F49242B28203092002B3A93 /* FlagQuizView.swift */,
 				3F76A36D2816F2DE00A27E32 /* Flags.swift */,
 				3F64FBEA27F730960047A3DE /* ContentView.swift */,
 				3F64FBEC27F730990047A3DE /* Assets.xcassets */,
@@ -161,8 +155,6 @@
 				3F49242A28202DBE002B3A93 /* FlagQuiz.swift in Sources */,
 				3F64FBEB27F730960047A3DE /* ContentView.swift in Sources */,
 				3F76A36E2816F2DE00A27E32 /* Flags.swift in Sources */,
-				3F49242C28203092002B3A93 /* FlagQuizView.swift in Sources */,
-				3FA2AEF8281C3E5A00AFE4C7 /* CountryQuizView.swift in Sources */,
 				3FA2AEFA2824250F00AFE4C7 /* CountryQuizGame.swift in Sources */,
 				3F64FBE927F730960047A3DE /* Guess_That_CountryApp.swift in Sources */,
 				3FA2AEF028105F0300AFE4C7 /* Countries .swift in Sources */,
