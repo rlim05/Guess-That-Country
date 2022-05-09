@@ -17,6 +17,7 @@
 		3FA2AEF228184A7A00AFE4C7 /* CountryQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEF128184A7A00AFE4C7 /* CountryQuiz.swift */; };
 		3FA2AEFA2824250F00AFE4C7 /* CountryQuizGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEF92824250F00AFE4C7 /* CountryQuizGame.swift */; };
 		3FA2AEFC2829686D00AFE4C7 /* CountryViewCuba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEFB2829686D00AFE4C7 /* CountryViewCuba.swift */; };
+		3FD038A12829708800297747 /* FlagQuizGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD038A02829708800297747 /* FlagQuizGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3FA2AEF128184A7A00AFE4C7 /* CountryQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryQuiz.swift; sourceTree = "<group>"; };
 		3FA2AEF92824250F00AFE4C7 /* CountryQuizGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryQuizGame.swift; sourceTree = "<group>"; };
 		3FA2AEFB2829686D00AFE4C7 /* CountryViewCuba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewCuba.swift; sourceTree = "<group>"; };
+		3FD038A02829708800297747 /* FlagQuizGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3F49242928202DBE002B3A93 /* FlagQuiz.swift */,
 				3FA2AEF92824250F00AFE4C7 /* CountryQuizGame.swift */,
 				3FA2AEFB2829686D00AFE4C7 /* CountryViewCuba.swift */,
+				3FD038A02829708800297747 /* FlagQuizGame.swift */,
 				3F76A36D2816F2DE00A27E32 /* Flags.swift */,
 				3F64FBEA27F730960047A3DE /* ContentView.swift */,
 				3F64FBEC27F730990047A3DE /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 			files = (
 				3F49242A28202DBE002B3A93 /* FlagQuiz.swift in Sources */,
 				3F64FBEB27F730960047A3DE /* ContentView.swift in Sources */,
+				3FD038A12829708800297747 /* FlagQuizGame.swift in Sources */,
 				3FA2AEFC2829686D00AFE4C7 /* CountryViewCuba.swift in Sources */,
 				3F76A36E2816F2DE00A27E32 /* Flags.swift in Sources */,
 				3FA2AEFA2824250F00AFE4C7 /* CountryQuizGame.swift in Sources */,
