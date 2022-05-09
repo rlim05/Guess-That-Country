@@ -19,7 +19,7 @@ struct ContentView: View {
                             .font(.title)
                     }
                     .padding()
-                    NavigationLink(destination: FlagQuizGame()) {
+                   // NavigationLink(destination: FlagQuizGame()) {
                         Text("Start Flag Quiz")
                             .font(.title)
                     }
@@ -29,7 +29,7 @@ struct ContentView: View {
             
         }
     }
-}
+//}
 
 
 struct ContentView_Previews: PreviewProvider {
