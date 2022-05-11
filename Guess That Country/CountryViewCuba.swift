@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CountryQuizCuba: View {
+struct CountryViewCuba: View {
     var body: some View {
         NavigationView {
             VStack {
@@ -44,9 +44,9 @@ struct CountryQuizCuba: View {
     }
     
 }
-struct CountryQuizCuba_Previews: PreviewProvider {
+struct CountryViewCuba_Previews: PreviewProvider {
     static var previews: some View {
-        CountryQuizCuba()
+        CountryViewCuba()
     }
 }
 

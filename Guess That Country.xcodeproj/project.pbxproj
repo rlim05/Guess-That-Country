@@ -17,6 +17,10 @@
 		3FA2AEF228184A7A00AFE4C7 /* CountryQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEF128184A7A00AFE4C7 /* CountryQuiz.swift */; };
 		3FA2AEFA2824250F00AFE4C7 /* CountryQuizGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEF92824250F00AFE4C7 /* CountryQuizGame.swift */; };
 		3FA2AEFC2829686D00AFE4C7 /* CountryViewCuba.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEFB2829686D00AFE4C7 /* CountryViewCuba.swift */; };
+		3FA2AEFE282ABAAD00AFE4C7 /* CountryQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEFD282ABAAB00AFE4C7 /* CountryQuestionView.swift */; };
+		3FA2AF00282AC15A00AFE4C7 /* CountryViewRomania.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AEFF282AC15A00AFE4C7 /* CountryViewRomania.swift */; };
+		3FA2AF02282AC18700AFE4C7 /* CountryViewSpain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AF01282AC18700AFE4C7 /* CountryViewSpain.swift */; };
+		3FA2AF04282AC1A300AFE4C7 /* CountryViewVietnam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AF03282AC1A300AFE4C7 /* CountryViewVietnam.swift */; };
 		3FD038A12829708800297747 /* FlagQuizGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD038A02829708800297747 /* FlagQuizGame.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +36,10 @@
 		3FA2AEF128184A7A00AFE4C7 /* CountryQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryQuiz.swift; sourceTree = "<group>"; };
 		3FA2AEF92824250F00AFE4C7 /* CountryQuizGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryQuizGame.swift; sourceTree = "<group>"; };
 		3FA2AEFB2829686D00AFE4C7 /* CountryViewCuba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewCuba.swift; sourceTree = "<group>"; };
+		3FA2AEFD282ABAAB00AFE4C7 /* CountryQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryQuestionView.swift; sourceTree = "<group>"; };
+		3FA2AEFF282AC15A00AFE4C7 /* CountryViewRomania.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewRomania.swift; sourceTree = "<group>"; };
+		3FA2AF01282AC18700AFE4C7 /* CountryViewSpain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewSpain.swift; sourceTree = "<group>"; };
+		3FA2AF03282AC1A300AFE4C7 /* CountryViewVietnam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewVietnam.swift; sourceTree = "<group>"; };
 		3FD038A02829708800297747 /* FlagQuizGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagQuizGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +78,10 @@
 				3FA2AEF128184A7A00AFE4C7 /* CountryQuiz.swift */,
 				3F49242928202DBE002B3A93 /* FlagQuiz.swift */,
 				3FA2AEF92824250F00AFE4C7 /* CountryQuizGame.swift */,
+				3FA2AEFF282AC15A00AFE4C7 /* CountryViewRomania.swift */,
+				3FA2AF01282AC18700AFE4C7 /* CountryViewSpain.swift */,
+				3FA2AF03282AC1A300AFE4C7 /* CountryViewVietnam.swift */,
+				3FA2AEFD282ABAAB00AFE4C7 /* CountryQuestionView.swift */,
 				3FA2AEFB2829686D00AFE4C7 /* CountryViewCuba.swift */,
 				3FD038A02829708800297747 /* FlagQuizGame.swift */,
 				3F76A36D2816F2DE00A27E32 /* Flags.swift */,
@@ -158,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA2AF04282AC1A300AFE4C7 /* CountryViewVietnam.swift in Sources */,
 				3F49242A28202DBE002B3A93 /* FlagQuiz.swift in Sources */,
 				3F64FBEB27F730960047A3DE /* ContentView.swift in Sources */,
 				3FD038A12829708800297747 /* FlagQuizGame.swift in Sources */,
+				3FA2AF02282AC18700AFE4C7 /* CountryViewSpain.swift in Sources */,
+				3FA2AF00282AC15A00AFE4C7 /* CountryViewRomania.swift in Sources */,
+				3FA2AEFE282ABAAD00AFE4C7 /* CountryQuestionView.swift in Sources */,
 				3FA2AEFC2829686D00AFE4C7 /* CountryViewCuba.swift in Sources */,
 				3F76A36E2816F2DE00A27E32 /* Flags.swift in Sources */,
 				3FA2AEFA2824250F00AFE4C7 /* CountryQuizGame.swift in Sources */,

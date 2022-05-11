@@ -1,50 +1,45 @@
 //
-//  CountryQuizGame.swift
+//  CountryViewRomania.swift
 //  Guess That Country
 //
-//  Created by Student on 5/5/22.
+//  Created by Student on 5/10/22.
 //
 
 import SwiftUI
 
-struct CountryQuizGame: View {
+struct CountryViewRomania: View {
     var body: some View {
         NavigationView {
             VStack {
-                Image("country_0")
+                Image("country_24")
                     .resizable()
                     .scaledToFit()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 350, height: 225, alignment: .center)
                     .border(Color.black, width: 5)
                 
-                Button("Australia") {
+                Button("Poland") {
                     
                 }
                 .frame(width: 150, height: 55)
                 .padding()
                 .font(.title)
                 
-                //NavigationLink (destination: CountryQuizGame()) {
-                // Text("Australia")
-                // .font(.title)
-                //   }
-                
-                Button("Canada") {
+                Button("Sweden") {
                     
                 }
                 .frame(width: 150, height: 55)
                 .padding()
                 .font(.title)
                 
-                Button("Greece") {
+                Button("Romania") {
                     
                 }
                 .frame(width: 150, height: 55)
                 .padding()
                 .font(.title)
                 
-                NavigationLink (destination: CountryViewRomania()){
+                NavigationLink (destination: CountryViewSpain()) {
                     Text("Next")
                         .font(.title)
                 }
@@ -55,8 +50,8 @@ struct CountryQuizGame: View {
     }
     
 }
-struct CountryQuizGame_Previews: PreviewProvider {
+struct CountryViewRomania_Previews: PreviewProvider {
     static var previews: some View {
-        CountryQuizGame()
+        CountryViewRomania()
     }
 }
